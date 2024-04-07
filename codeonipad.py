@@ -3,8 +3,8 @@ i = 1
 while valor < 1 or valor > 9:
   valor = int(input('Eu disse um NUMEROOOO DE 1 A 9: '))
 
-while i < 10:
-  print('-'*15)
-  print('{}x{} = {}'.format(valor, i, valor*i))
-  print('-'*15)
+print('='*13)
+while i < 11:
+  print('| {}x{:2} = {:2} |'.format(valor, i, valor*i))
   i += 1
+print('='*13)
